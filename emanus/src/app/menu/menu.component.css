@@ -1,0 +1,23 @@
+.drawer-show {
+    z-index: 10;
+}
+
+.drawer {
+    position: fixed;
+    display: block;
+    transition: 1s;
+    opacity: var(--num);
+    width: 100%;
+    top: 50px;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    background-color: white;
+}
+
+.drawer-item {
+    color: lightslategrey;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20pt;
+    height: 150px !important;
+}

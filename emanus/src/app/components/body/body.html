@@ -1,0 +1,111 @@
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+
+<!-- Calendly badge widget end -->
+<div style="height: 50px">
+</div>
+<div class='back {{m}} {{zindex}}'>
+
+    <div style="height: 600px; width: 350px; margin-right: 50px; margin-left: auto">
+        <div class="calendly-inline-widget" style="min-width:320px;height:580px; margin-right: 50px" data-auto-load="false"></div>
+    </div>
+    <div style="color: white; position: absolute; top:70%; left: 40%">
+        <h1 style="font-size: 30pt; text-align: center">Welcome to Emanus,<br/><br/> Ideas developer for Inventors</h1>
+
+    </div>
+</div>
+<app-service></app-service>
+<mat-grid-list cols="2" rowHeight="100px" style="width: 70%; margin: auto; margin-top:25px ">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+
+        <h2>
+            Develop Ideas
+        </h2>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus culpa labore quaerat accusantium repellat nostrum, voluptatum facilis. Quaerat eos impedit saepe suscipit, provident reiciendis delectus, nesciunt hic expedita, quibusdam
+            sequi.
+        </p>
+
+    </mat-grid-tile>
+
+</mat-grid-list>
+<mat-grid-list cols="4" rowHeight="300px" style="width: 90%; margin: auto;  background-color: lightgray">
+    <mat-grid-tile [colspan]="4" [rowspan]="1">
+        <div>
+            <img src="../../assets/emanus_flag_1.png" alt="" width="100%">
+        </div>
+
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <div style="width:500px;height: 300px; margin: 15px;">
+            <img src="../../../assets/woven.jpg" alt="" width="100%" height="300px">
+        </div>
+
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <div style="width:500px;height: 300px;margin: 15px; ;">
+            <img src="../../../assets/girl.png" alt="" width="100%" height="300px">
+        </div>
+
+    </mat-grid-tile>
+
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <div style="width:500px;height: 300px;margin: 15px;">
+            <img src="../../../assets/girl2.png" alt="" width="100%" height="300px">
+        </div>
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <div style="width:500px;height: 300px; ">
+            <img src="../../../assets/man2.png" alt="" width="100%" height="300px">
+        </div>
+
+    </mat-grid-tile>
+    <ng-container *ngFor="let person of people">
+        <mat-grid-tile [colspan]="1" [rowspan]="1" style="text-align: justify;">
+
+            <p style="width: 300px">
+                {{person.comments[0].description}}
+            </p>
+
+        </mat-grid-tile>
+    </ng-container>
+    <mat-grid-tile [colspan]="1" [rowspan]="1" style="text-align: justify;">
+
+        <p style="width: 300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus culpa labore quaerat accusantium repellat nostrum, voluptatum facilis. Quaerat eos impedit saepe suscipit, provident reiciendis delectus, nesciunt hic expedita, quibusdam
+            sequi.
+        </p>
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1" style="text-align: justify;">
+        <p style="width: 300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus culpa labore quaerat accusantium repellat nostrum, voluptatum facilis. Quaerat eos impedit saepe suscipit, provident reiciendis delectus, nesciunt hic expedita, quibusdam
+            sequi.
+        </p>
+
+    </mat-grid-tile>
+
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <p style="width: 300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus culpa labore quaerat accusantium repellat nostrum, voluptatum facilis. Quaerat eos impedit saepe suscipit, provident reiciendis delectus, nesciunt hic expedita, quibusdam
+            sequi.
+        </p>
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <p style="width: 300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus culpa labore quaerat accusantium repellat nostrum, voluptatum facilis. Quaerat eos impedit saepe suscipit, provident reiciendis delectus, nesciunt hic expedita, quibusdam
+            sequi.
+        </p>
+
+    </mat-grid-tile>
+
+</mat-grid-list>
+<div style="width: 100%; height: 100px; background-color: darkgray; color: white; text-align: center">
+    Emanus &copy;
+</div>
+
+<!-- Calendly badge widget begin -->

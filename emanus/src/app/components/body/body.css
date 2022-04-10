@@ -1,0 +1,45 @@
+.back {
+    position: relative;
+    top: 50px;
+    right: 0;
+    height: 100%;
+    background: url('../../../assets/woven4.jpeg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 25px white solid;
+    border-top: none;
+    transition: 1s;
+}
+
+.header-logo {
+    width: 900px;
+    height: 220px;
+    background-color: #395F87;
+    color: #87D1E6;
+    font-family: futura;
+    font-size: 150pt;
+    text-align: center;
+    vertical-align: top;
+    padding: 0;
+}
+
+.moveup {
+    transform: translateY(-50px);
+}
+
+.zindex {
+    transition: 0.5s;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    font-size: 170pt;
+    margin: 5px;
+}
+
+.mat-grid-tile-content {
+    flex-direction: column;
+}
